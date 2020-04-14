@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Aplicacion Spring Boot</title>
+	</head>
+	<body>
+		<h1 th:text="|Hola, ${nombre}!|"></h1>
+		<h1 th:text="${apellidos}"></h1>
+		<h1 th:text="${edad}"></h1>
+		<h1 th:text="|Vas a cumplir ${edad+1}|"></h1>
+	</body>
+</html>
